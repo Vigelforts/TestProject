@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="PageBackgroundColor">#FFFFFFFF</Color>
+    <Color x:Key="PageHeaderBackgroundColor">#FF004990</Color>
+    <Color x:Key="PageHeaderTextColor">#FFFFFFFF</Color>
+    
+    <Color x:Key="CatalogPageHeaderBackgroundColor">#FF004990</Color>
+    <Color x:Key="CatalogPageHeaderTextColor">#FFFFFFFF</Color>
+    <Color x:Key="CatalogBackgroundColor">#FFD1E3F7</Color>
+    <Color x:Key="CatalogTextColor">#FF221F1F</Color>
+    <Color x:Key="ProductHighlightColor">#FF9EC2F2</Color>
+
+    <Color x:Key="TopAppBarButtonsBackgroundColor">#FF004990</Color>
+    <Color x:Key="ItemsBackgroundColor">#FFD1E3F7</Color>
+    <Color x:Key="ItemsTextColor">#FF221F1F</Color>
+    
+    <Color x:Key="AppBarBackgroundColor">#FFFFFFFF</Color>
+    <Color x:Key="AppBarTextColor">#FF221F1F</Color>
+
+    <Color x:Key="SplashScreenColor">#FFB61526</Color>
+</ResourceDictionary>

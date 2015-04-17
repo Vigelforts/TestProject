@@ -1,0 +1,13 @@
+﻿<local:ViewBase
+    x:Class="Paragon.Container.Views.SplashScreenView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Paragon.Container.Views">
+
+    <Grid Background="{StaticResource SplashScreenBrush}">
+        <Image Source="/Assets/SplashScreen.png" Stretch="None"/>
+        <ProgressRing x:Name="Progress" IsActive="True" Height="70" Width="70" Foreground="{StaticResource SplashScreenProgressRingBrush}"
+                      HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,50"/>
+    </Grid>
+</local:ViewBase>
+

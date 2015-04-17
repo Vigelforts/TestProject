@@ -1,0 +1,11 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-180"
+"ResourceDimensions"		"scale-180"
+
+[Files]
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\x64\Release\split.scale-180.pri"			"resources.pri"
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\x64\Release\PackageLayout\Assets\WideLogo.scale-180.png"			"Assets\WideLogo.scale-180.png"
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\x64\Release\PackageLayout\Assets\StoreLogo.scale-180.png"			"Assets\StoreLogo.scale-180.png"
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\x64\Release\PackageLayout\Assets\SplashScreen.scale-180.png"			"Assets\SplashScreen.scale-180.png"
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\x64\Release\PackageLayout\Assets\SmallLogo.scale-180.png"			"Assets\SmallLogo.scale-180.png"
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\x64\Release\PackageLayout\Assets\Logo.scale-180.png"			"Assets\Logo.scale-180.png"

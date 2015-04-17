@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="ParagonTechnologieGmbH.ChambersEnglishDictionaries" Publisher="CN=429F8C40-BD35-4C03-984D-C0759CF3AB69" Version="4.1.38.0" />
+  <Properties>
+    <DisplayName>Chambers English Dictionaries</DisplayName>
+    <PublisherDisplayName>Paragon Technologie GmbH, Systemprogrammierung</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Win81App.App">
+      <m2:VisualElements DisplayName="ms-resource:AppName" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="Slovoed dictionaries" ForegroundText="light" BackgroundColor="#F8011A">
+        <m2:DefaultTile Wide310x150Logo="Assets\WideLogo.png">
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#F8011A" />
+        <m2:ApplicationView MinWidth="width500" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="privateNetworkClientServer" />
+  </Capabilities>
+</Package>

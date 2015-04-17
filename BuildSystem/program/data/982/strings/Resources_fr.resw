@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AppName" xml:space="preserve">
+    <value>Dictionnaires de Chambers </value>
+  </data>
+  <data name="AppNameLabel.Text" xml:space="preserve">
+    <value>Dictionnaires de Chambers </value>
+  </data>
+</root>

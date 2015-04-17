@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SB1019</Machine>
+    <WindowsUser>tikhonov2</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ParagonTechnologieGmbH-SlovoedDictionaries</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\obj\x86\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Paragon.Container.exe">
+      <PackagePath>Paragon.Container.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.CrossCore.WindowsStore.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\netcore45\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\netcore45\Cirrious.MvvmCross.WindowsStore.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\libs\CommonLib\CommonLib_any\Paragon.Common.dll">
+      <PackagePath>Paragon.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\libs\CommonLib\CommonLib_any\Paragon.Common.WinRT.dll">
+      <PackagePath>Paragon.Common.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Core\bin\x86\Release\Paragon.Container.Core.dll">
+      <PackagePath>Paragon.Container.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\libs\Dictionary\DictionaryLib\win32_release\Paragon.Dictionary.dll">
+      <PackagePath>Paragon.Dictionary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Core\bin\x86\Release\Paragon.Container.Models.dll">
+      <PackagePath>Paragon.Container.Models.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Core\bin\x86\Release\EngineWrapper.dll">
+      <PackagePath>EngineWrapper.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Core\bin\x86\Release\Encryption.dll">
+      <PackagePath>Encryption.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Core\bin\x86\Release\EngineWrapper.winmd">
+      <PackagePath>EngineWrapper.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Core\bin\x86\Release\Encryption.winmd">
+      <PackagePath>Encryption.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\4000.sdc">
+      <PackagePath>Bases\4000.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\4001.sdc">
+      <PackagePath>Bases\4001.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\4002.sdc">
+      <PackagePath>Bases\4002.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\4003.sdc">
+      <PackagePath>Bases\4003.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\4004.sdc">
+      <PackagePath>Bases\4004.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\4008.sdc">
+      <PackagePath>Bases\4008.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\516F.sdc">
+      <PackagePath>Bases\516F.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5170.sdc">
+      <PackagePath>Bases\5170.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51DC.sdc">
+      <PackagePath>Bases\51DC.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51DF.sdc">
+      <PackagePath>Bases\51DF.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51E0.sdc">
+      <PackagePath>Bases\51E0.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51E3.sdc">
+      <PackagePath>Bases\51E3.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51E4.sdc">
+      <PackagePath>Bases\51E4.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51E5.sdc">
+      <PackagePath>Bases\51E5.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51EB.sdc">
+      <PackagePath>Bases\51EB.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51F6.sdc">
+      <PackagePath>Bases\51F6.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51F8.sdc">
+      <PackagePath>Bases\51F8.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\51FB.sdc">
+      <PackagePath>Bases\51FB.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5201.sdc">
+      <PackagePath>Bases\5201.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5202.sdc">
+      <PackagePath>Bases\5202.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5208.sdc">
+      <PackagePath>Bases\5208.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\520A.sdc">
+      <PackagePath>Bases\520A.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5212.sdc">
+      <PackagePath>Bases\5212.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5216.sdc">
+      <PackagePath>Bases\5216.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\521A.sdc">
+      <PackagePath>Bases\521A.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\521F.sdc">
+      <PackagePath>Bases\521F.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\522B.sdc">
+      <PackagePath>Bases\522B.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\522F.sdc">
+      <PackagePath>Bases\522F.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5231.sdc">
+      <PackagePath>Bases\5231.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5235.sdc">
+      <PackagePath>Bases\5235.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\5248.sdc">
+      <PackagePath>Bases\5248.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Bases\52CE.sdc">
+      <PackagePath>Bases\52CE.sdc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\ArticleHtmlTemplate.html">
+      <PackagePath>Assets\ArticleHtmlTemplate.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\de\ContainerAbout.html">
+      <PackagePath>Resources\de\ContainerAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\de\ProductAbout.html">
+      <PackagePath>Resources\de\ProductAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\en\ContainerAbout.html">
+      <PackagePath>Resources\en\ContainerAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\en\ProductAbout.html">
+      <PackagePath>Resources\en\ProductAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\es\ContainerAbout.html">
+      <PackagePath>Resources\es\ContainerAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\es\ProductAbout.html">
+      <PackagePath>Resources\es\ProductAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\fr\ContainerAbout.html">
+      <PackagePath>Resources\fr\ContainerAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\fr\ProductAbout.html">
+      <PackagePath>Resources\fr\ProductAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\it\ContainerAbout.html">
+      <PackagePath>Resources\it\ContainerAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\it\ProductAbout.html">
+      <PackagePath>Resources\it\ProductAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\ru\ContainerAbout.html">
+      <PackagePath>Resources\ru\ContainerAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Resources\ru\ProductAbout.html">
+      <PackagePath>Resources\ru\ProductAbout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\duden_morphomagics.png">
+      <PackagePath>Assets\duden_morphomagics.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\bulg.png">
+      <PackagePath>Assets\Flags\bulg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\gree.png">
+      <PackagePath>Assets\Flags\gree.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\hebr.png">
+      <PackagePath>Assets\Flags\hebr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\norw.png">
+      <PackagePath>Assets\Flags\norw.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\roma.png">
+      <PackagePath>Assets\Flags\roma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\WideLogo.scale-180.png">
+      <PackagePath>Assets\WideLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\WideLogo.scale-80.png">
+      <PackagePath>Assets\WideLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\chin.png">
+      <PackagePath>Assets\Flags\chin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\czec.png">
+      <PackagePath>Assets\Flags\czec.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\dani.png">
+      <PackagePath>Assets\Flags\dani.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\dutc.png">
+      <PackagePath>Assets\Flags\dutc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\engl.png">
+      <PackagePath>Assets\Flags\engl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\fren.png">
+      <PackagePath>Assets\Flags\fren.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\germ.png">
+      <PackagePath>Assets\Flags\germ.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\hung.png">
+      <PackagePath>Assets\Flags\hung.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\ital.png">
+      <PackagePath>Assets\Flags\ital.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\japa.png">
+      <PackagePath>Assets\Flags\japa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\lati.png">
+      <PackagePath>Assets\Flags\lati.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\poli.png">
+      <PackagePath>Assets\Flags\poli.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\port.png">
+      <PackagePath>Assets\Flags\port.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\russ.png">
+      <PackagePath>Assets\Flags\russ.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\slvn.png">
+      <PackagePath>Assets\Flags\slvn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\span.png">
+      <PackagePath>Assets\Flags\span.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\swed.png">
+      <PackagePath>Assets\Flags\swed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Flags\turk.png">
+      <PackagePath>Assets\Flags\turk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\catalog.xml">
+      <PackagePath>catalog.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Package.StoreAssociation.xml">
+      <PackagePath>Package.StoreAssociation.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\AdditionalArticleFlyout.xbf">
+      <PackagePath>Views\AdditionalArticleFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\AppStyles.xbf">
+      <PackagePath>Views\AppStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\ArticleView.xbf">
+      <PackagePath>Views\ArticleView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\BrandColors.xbf">
+      <PackagePath>Views\BrandColors.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\DictionaryView.xbf">
+      <PackagePath>Views\DictionaryView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\EnterCodeFlyout.xbf">
+      <PackagePath>Views\EnterCodeFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\FavoritesView.xbf">
+      <PackagePath>Views\FavoritesView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\HistoryView.xbf">
+      <PackagePath>Views\HistoryView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\InformationView.xbf">
+      <PackagePath>Views\InformationView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\NavigationMenuControl.xbf">
+      <PackagePath>Views\NavigationMenuControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\ProductsCatalogView.xbf">
+      <PackagePath>Views\ProductsCatalogView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\SearchResultsView.xbf">
+      <PackagePath>Views\SearchResultsView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\ProductsListControl.xbf">
+      <PackagePath>Views\ProductsListControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\SplashScreenView.xbf">
+      <PackagePath>Views\SplashScreenView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\SwitchDirection.xbf">
+      <PackagePath>Views\SwitchDirection.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\UIResourcesDictionary\ButtonStyles.xbf">
+      <PackagePath>Views\UIResourcesDictionary\ButtonStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\UIResourcesDictionary\StylesDictionary.xbf">
+      <PackagePath>Views\UIResourcesDictionary\StylesDictionary.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Views\UIResourcesDictionary\TextStyles.xbf">
+      <PackagePath>Views\UIResourcesDictionary\TextStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\Paragon.Container.xr.xml">
+      <PackagePath>Paragon.Container.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingTextBlock.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CountdownControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

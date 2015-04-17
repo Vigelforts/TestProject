@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Article</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <style type="text/css" media="screen">
+        body.columns {
+            columns: auto 400px;
+            column-gap: 60px;
+            column-fill: auto;
+        }
+
+        body.simpl {
+            max-width: 800px;
+        }
+
+        .highlighted {
+            background-color: #FFFF00;
+            display: inline-block;
+        }
+
+        [[styles]]
+    </style>
+
+    <script type="text/javascript">
+        function textTapped(meta) {
+            window.external.notify(meta)
+        }
+
+        function hideControlTapped(element) {
+            var hideBlock;
+
+            var parent = element.parentElement;
+            while (parent) {
+                if (parent.className == "hideBlockWithControl") {
+                    hideBlock = parent;
+                    break;
+                }
+                parent = parent.parentElement;
+            }
+
+            if (hideBlock) {
+                if (element.visibilityState) {
+                    closeHideBlock(hideBlock);
+                    element.visibilityState = false;
+                }
+                else {
+                    showElement(hideBlock);
+                    element.visibilityState = true;
+                }
+            }
+        }
+
+        function OpenHideBlocks() {
+            var elements = document.getElementsByClassName("hideBlock");
+            for (var i = 0; i < elements.length; ++i) {
+                showElement(elements[i]);
+            }
+        }
+
+        function CloseHideBlocks() {
+            var elements = document.getElementsByClassName("hideBlock");
+            for (var i = 0; i < elements.length; ++i) {
+                closeHideBlock(elements[i]);
+            }
+        }
+
+        function ScrollTo(label) {
+            var element = document.getElementById(label);
+            element.scrollIntoView(true);
+        }
+
+        function closeHideBlock(element) {
+            hideElement(element);
+            subElements = element.getElementsByClassName("hideControl");
+            for (var i = 0; i < subElements.length; ++i) {
+                showElement(subElements[i]);
+            }
+        }
+
+        function showElement(element) {
+            element.style.display = "";
+
+            var parent = element.parentElement;
+            while (parent) {
+                parent.style.display = "";
+                parent = parent.parentElement;
+            }
+
+            var subElements = element.getElementsByTagName("*");
+            for (var i = 0; i < subElements.length; ++i) {
+                subElements[i].style.display = "";
+            }
+        }
+
+        function hideElement(element) {
+            element.style.display = "none";
+
+            var subElements = element.getElementsByTagName("*");
+            for (var i = 0; i < subElements.length; ++i) {
+                subElements[i].style.display = "none";
+            }
+        }
+
+        location.hash = "#[[label]]";
+        //var isScrolled = false;
+        //window.onscroll = function (e) {
+        //    if (!isScrolled) {
+        //        window.scrollTo(window.pageXOffset + 450, 0); isScrolled = true;
+        //    }
+        //}
+
+        window.onload = function () {
+            document.documentElement.style.msScrollTranslation = 'vertical-to-horizontal';
+
+            elements = document.getElementsByClassName("hideControl");
+            for (var i = 0; i < elements.length; ++i) {
+                elements[i].visibilityState = true;
+            }
+        }
+    </script>
+</head>
+<body id="article" class="[[body_style]]" style="height: [[article_height]]px;">
+    [[body]]
+</body>
+</html>

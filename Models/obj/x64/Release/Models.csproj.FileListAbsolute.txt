@@ -1,0 +1,2 @@
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Models\bin\x64\Release\Paragon.Container.Models.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Models\obj\x64\Release\Paragon.Container.Models.dll

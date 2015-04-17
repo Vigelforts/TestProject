@@ -1,0 +1,16 @@
+﻿<SettingsFlyout
+    x:Class="Paragon.Container.Views.AdditionalArticleFlyout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:paragon="using:Paragon.Common.UI"
+    IconSource="Assets/SmallLogo.png"
+    HeaderBackground="{StaticResource PageHeaderBackgroundBrush}"
+    HeaderForeground="{StaticResource PageHeaderTextBrush}"
+    Title="{Binding Header}"
+    Width="500">
+
+    <Grid>
+        <WebView x:Name="ArticleView" paragon:WebViewExtensions.HTML="{Binding Source}"
+                 Width="420" Height="600"/>
+    </Grid>
+</SettingsFlyout>

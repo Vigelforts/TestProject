@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-es"
+"ResourceDimensions"		"language-es"
+
+[Files]
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\ARM\Release\split.language-es.pri"			"resources.pri"
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\ARM\Release\PackageLayout\Resources\es\ProductAbout.html"			"Resources\es\ProductAbout.html"
+"C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\obj\ARM\Release\PackageLayout\Resources\es\ContainerAbout.html"			"Resources\es\ContainerAbout.html"

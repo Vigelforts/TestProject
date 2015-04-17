@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AppName" xml:space="preserve">
+    <value>Chambers English Dictionaries</value>
+  </data>
+  <data name="AppNameLabel.Text" xml:space="preserve">
+    <value>Chambers English Dictionaries</value>
+  </data>
+  <data name="CatalogButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Catalogue</value>
+  </data>
+  <data name="ClearFavoritesRequest" xml:space="preserve">
+    <value>Clear Favourites?</value>
+  </data>
+  <data name="FavoriteButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Favourite</value>
+  </data>
+  <data name="FavoritesButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Favourites</value>
+  </data>
+  <data name="FavoritesEmptyLabel.Text" xml:space="preserve">
+    <value>You don’t have any favourite articles at the moment.</value>
+  </data>
+  <data name="FavoritesHeader.Text" xml:space="preserve">
+    <value>Favourites</value>
+  </data>
+  <data name="UnfavoriteButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Unfavourites</value>
+  </data>
+</root>

@@ -1,0 +1,209 @@
+﻿<local:ViewBase
+    x:Name="pageRoot"
+    x:Class="Paragon.Container.Views.ProductsCatalogView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:paragon="using:Paragon.Common.UI"
+    xmlns:local="using:Paragon.Container.Views"
+    xmlns:mvx="using:Cirrious.MvvmCross.WindowsStore.Views"
+    NavigationCacheMode="Enabled">
+
+
+    <Page.BottomAppBar>
+        <AppBar Background="{StaticResource AppBarBackgroundBrush}" IsSticky="False">
+            <Grid>
+                <!-- Left buttons -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:Uid="PinToStartButton" Style="{StaticResource RoundButtonWithIconStyle}" Content="&#xE141;"
+                            Command="{Binding PinToStartCommand}"/>
+                </StackPanel>
+
+                <!-- Right buttons -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:Uid="RestorePurchaseButton" Style="{StaticResource RoundButtonWithIconStyle}" Content="&#xE14D;"
+                            Command="{Binding RestorePurchaseCommand}"/>
+                    <Button x:ConnectionId='1' x:Uid="EnterCodeButton" Style="{StaticResource RoundButtonWithIconStyle}" Content="&#xE13E;"
+                                                         />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{StaticResource PageBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Background="{StaticResource CatalogPageHeaderBackgroundBrush}">
+            <TextBlock x:Uid="AppNameLabel" Style="{StaticResource HeaderTextStyle}" Foreground="{StaticResource CatalogPageHeaderTextBrush}"
+                       Grid.Column="1" Margin="30,0,30,40"/>
+        </Grid>
+
+        <!-- Body -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="500"/>
+                <ColumnDefinition Width="235*"/>
+                <ColumnDefinition Width="198*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Current product -->
+            <Grid Background="{StaticResource CatalogBrush}"
+                  DataContext="{Binding CurrentProduct}"
+                  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Name -->
+                <TextBlock Style="{StaticResource BaseTextStyle}" FontSize="32" LineHeight="40" FontWeight="ExtraLight"
+                           Foreground="{StaticResource ItemsTextBrush}"
+                           Text="{Binding Name}" Margin="30,10,30,0"/>
+
+                <Grid Grid.Row="1" Margin="30,30,30,0"
+                      Visibility="{Binding IsNotPurchased, Converter={StaticResource BooleanToVisibilityConverter}}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Price -->
+                    <TextBlock Style="{StaticResource BaseTextStyle}" FontSize="26"
+                               Foreground="{StaticResource ItemsTextBrush}" Text="{Binding Price}"/>
+
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0"
+                               >
+                        <!-- Buy button -->
+                        <Button x:Uid="BuyButton" Style="{StaticResource ButtonWithIconStyle}"
+                                Width="190" Height="50" Margin="0,0,0,0" FontSize="26"
+                                Content="M17.099982,16.20401L34.266981,16.20401 34.266981,18.89901 17.099982,18.89901z M14.053982,10.75501L36.317982,10.75501 36.317982,13.45001 14.053982,13.45001z M0.67000008,0L6.9869986,1.4330082 7.4139986,2.5930147 7.4130716,2.5935116 14.808873,22.069011 36.276239,22.069011 39.940575,6.0790195 42.666985,6.7039852 38.623377,24.348001 38.533981,24.327541 38.533981,24.86601 15.871031,24.86601 17.193412,28.34826 17.19502,28.348138C17.262076,28.344734 17.329573,28.343012 17.397471,28.343012 18.891221,28.343012 20.191679,29.17667 20.858591,30.403734L20.942261,30.56701 29.598175,30.56701 29.68175,30.403734C30.34793,29.17667 31.647352,28.343012 33.141983,28.343012 35.31599,28.343012 37.077997,30.106785 37.077997,32.279505 37.077997,34.452223 35.31599,36.214996 33.141983,36.214996 31.307664,36.214996 29.767365,34.960052 29.330806,33.262781L29.293941,33.10301 21.246878,33.10301 21.209962,33.262781C20.772813,34.960052 19.23071,36.214996 17.397471,36.214996 15.224743,36.214996 13.461964,34.452223 13.461963,32.279505 13.461964,31.193145 13.902658,30.209022 14.614944,29.496489L14.631997,29.480224 4.8030195,3.5954418 0,2.4010134z"
+                                Command="{Binding BuyCommand}"
+                                 Visibility="{Binding NoProductSelected, Mode=TwoWay, Converter={StaticResource BooleanToVisibilityInvertConverter}}"
+                                />
+                        <!-- Demo button -->
+                        <Button x:Uid="DemoButton" Style="{StaticResource ButtonWithIconStyle}"
+                                Width="190" Height="50" Margin="5,0,0,0" FontSize="26"
+                                Content="M57.063873,8.2469999L57.194774,8.2469999C58.06459,8.2469999,58.770999,8.9514209,58.770999,9.8225261L58.770999,38.854286C58.770999,39.686402 58.124488,40.367417 57.307075,40.424717 56.906971,40.55492 56.374462,40.53672 55.876354,40.273613 48.230434,36.226635 40.325012,36.824349 32.9743,41.024929 31.999685,41.57964 29.228841,40.213814 30.578762,39.441597 38.462085,34.938812 47.255821,34.282601 55.487049,38.005371L55.487049,9.8225261C55.487049,8.9514209,56.192459,8.2469999,57.063873,8.2469999z M1.5765214,7.9829995L1.7070088,7.9829995C2.578099,7.9829999,3.2835305,8.6900875,3.2835302,9.5586101L3.2835302,37.740711C11.514862,34.018036 20.308356,34.675633 28.191061,39.178204 29.541345,39.950298 26.770578,41.31749 25.79599,40.761494 18.445078,36.56102 10.540273,35.963425 2.8941953,40.011498 2.3958411,40.274498 1.8639274,40.291496 1.4628725,40.162499 0.64586639,40.103897 0,39.424301 0,38.589607L0,9.5586101C0,8.6900875,0.70641232,7.9829999,1.5765214,7.9829995z M44.139385,0.16105747C46.482063,0.15614485,49.207069,0.47021243,52.3661,1.2507425L52.368,34.715408C52.368,34.715408,41.521152,29.005823,30.824001,36.980999L31.015398,6.1933586C31.015398,6.1933586,33.987775,0.18234282,44.139385,0.16105747z M14.511298,0.00071966404C24.722303,0.075802114,27.714494,5.9942452,27.714494,5.9942447L27.947002,36.718002C16.608066,29.606054,6.4020005,34.451019,6.4020007,34.451019L6.4039606,0.98775288C9.2928014,0.31748327 11.818138,0.025515687 14.019586,0.0016085565 14.18532,-0.00019056614 14.349218,-0.00047104831 14.511298,0.00071966404z"
+                                Command="{Binding DemoCommand}"
+                                 Visibility="{Binding NoProductSelected, Converter={StaticResource BooleanToVisibilityInvertConverter}}"
+                               />
+                    </StackPanel>
+                </Grid>
+
+                <StackPanel Grid.Row="1" HorizontalAlignment="Center" Margin="0,15,0,0"
+                            Visibility="{Binding IsPurchased, Converter={StaticResource BooleanToVisibilityConverter}}">
+
+                    <!-- Downloadable bases -->
+                    <ListBox Style="{StaticResource SimpleListBoxStyle}" Margin="25,0,0,0" HorizontalAlignment="Center"
+                             ItemsSource="{Binding DownloadableBases}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Height="85" Margin="0,20,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="70"/>
+                                        <ColumnDefinition Width="270"/>
+                                        <ColumnDefinition Width="90"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <!-- Icon -->
+                                    <Path Stretch="Uniform" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" Fill="{StaticResource ItemsTextBrush}"
+                                          Margin="0,0,0,15" Data="{Binding Type, Converter={StaticResource BaseIconConverter}}"/>
+
+                                    <StackPanel Grid.Column="1" Margin="5,10,0,0">
+                                        <!-- Name -->
+                                        <TextBlock Style="{StaticResource BaseTextStyle}" Foreground="{StaticResource ItemsTextBrush}" FontSize="22" 
+                                                   Text="{Binding Name}"/>
+
+                                        <!-- Size -->
+                                        <TextBlock Style="{StaticResource BaseTextStyle}" Foreground="{StaticResource ItemsTextBrush}" FontSize="16"
+                                                   Text="{Binding Size}" Visibility="{Binding IsNotDownloaded, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+
+                                        <!-- Download progress -->
+                                        <ProgressBar Minimum="0" Maximum="100" Margin="0,10,0,0"
+                                                     Value="{Binding DownloadProgress}" Visibility="{Binding IsNotDownloaded, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+
+                                        <!-- Downloaded lable -->
+                                        <TextBlock x:Uid="DownloadedLable" Style="{StaticResource BaseTextStyle}" Foreground="{StaticResource ItemsTextBrush}"
+                                                   FontSize="16" Visibility="{Binding IsDownloaded, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                                    </StackPanel>
+
+                                    <Grid Grid.Column="2">
+                                        <!-- Download button -->
+                                        <Button x:Uid="DownloadButton" Style="{StaticResource DownloadRoundButtonWithIconStyle}"
+                                                Command="{Binding DownloadCommand}"/>
+
+                                        <!-- Stop button -->
+                                        <Button x:Uid="StopButton" Style="{StaticResource StopRoundButtonWithIconStyle}"
+                                                Command="{Binding StopCommand}"/>
+                                    </Grid>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+
+                <!-- Description -->
+                <WebView Grid.Row="2" Width="480" HorizontalAlignment="Right" Margin="0,10,0,0"
+                         paragon:WebViewExtensions.HTML="{Binding Description, Converter={StaticResource ProductDescriptionHtmlConverter}}"
+                         Visibility="{Binding IsNotPurchased, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                
+
+                <!-- Launch button -->
+                <Button x:Uid="LaunchButton" Grid.Row="2" Style="{StaticResource ButtonWithIconStyle}"
+                        Width="260" Height="50" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,50"
+                        Content="M57.063873,8.2469999L57.194774,8.2469999C58.06459,8.2469999,58.770999,8.9514209,58.770999,9.8225261L58.770999,38.854286C58.770999,39.686402 58.124488,40.367417 57.307075,40.424717 56.906971,40.55492 56.374462,40.53672 55.876354,40.273613 48.230434,36.226635 40.325012,36.824349 32.9743,41.024929 31.999685,41.57964 29.228841,40.213814 30.578762,39.441597 38.462085,34.938812 47.255821,34.282601 55.487049,38.005371L55.487049,9.8225261C55.487049,8.9514209,56.192459,8.2469999,57.063873,8.2469999z M1.5765214,7.9829995L1.7070088,7.9829995C2.578099,7.9829999,3.2835305,8.6900875,3.2835302,9.5586101L3.2835302,37.740711C11.514862,34.018036 20.308356,34.675633 28.191061,39.178204 29.541345,39.950298 26.770578,41.31749 25.79599,40.761494 18.445078,36.56102 10.540273,35.963425 2.8941953,40.011498 2.3958411,40.274498 1.8639274,40.291496 1.4628725,40.162499 0.64586639,40.103897 0,39.424301 0,38.589607L0,9.5586101C0,8.6900875,0.70641232,7.9829999,1.5765214,7.9829995z M44.139385,0.16105747C46.482063,0.15614485,49.207069,0.47021243,52.3661,1.2507425L52.368,34.715408C52.368,34.715408,41.521152,29.005823,30.824001,36.980999L31.015398,6.1933586C31.015398,6.1933586,33.987775,0.18234282,44.139385,0.16105747z M14.511298,0.00071966404C24.722303,0.075802114,27.714494,5.9942452,27.714494,5.9942447L27.947002,36.718002C16.608066,29.606054,6.4020005,34.451019,6.4020007,34.451019L6.4039606,0.98775288C9.2928014,0.31748327 11.818138,0.025515687 14.019586,0.0016085565 14.18532,-0.00019056614 14.349218,-0.00047104831 14.511298,0.00071966404z"
+                        Command="{Binding LaunchCommand}"/>
+            </Grid>
+            <!--Language From-->
+            <!--Language To-->
+            <!-- Products -->
+            <ScrollViewer Name="ProductsScrollViewer" Grid.Column="1" Style="{StaticResource HorizontalScrollViewerStyle}" Margin="5,10,0,0" Grid.ColumnSpan="2">
+                <StackPanel Orientation="Horizontal" Margin="19,10,20,10">
+                    <GridView Style="{StaticResource GridViewBaseStyle}" SelectionMode="None" IsItemClickEnabled="True"
+                              ItemsSource="{Binding PurchasedProducts}" ItemTemplate="{StaticResource ProductDataTemplate}"
+                              paragon:ItemClickCommand.Command="{Binding ProductClickCommand}"/>
+                    <GridView Style="{StaticResource GridViewBaseStyle}" SelectionMode="None" IsItemClickEnabled="True" Margin="20,0,0,0"
+                              ItemsSource="{Binding Products}" ItemTemplate="{StaticResource ProductDataTemplate}"
+                              paragon:ItemClickCommand.Command="{Binding ProductClickCommand}"/>
+                </StackPanel>
+            </ScrollViewer>
+            <StackPanel x:ConnectionId='2' Name="LanguageFilterPanel" Visibility="{Binding LanguageFilterEnabled, Converter={StaticResource BooleanToVisibilityConverter}}"  Grid.Column="1" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" VerticalAlignment="Top" Width="485" Orientation="Horizontal" Grid.ColumnSpan="2"
+                                                          >
+                <!--Languages-->
+                <ComboBox Name="Language1Box" ItemsSource="{Binding Languages}" SelectedValue="{Binding CurrentLanguage1, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="210" Margin="5" MaxDropDownHeight="Infinity" >
+                    <ComboBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical"/>
+                        </ItemsPanelTemplate>
+                    </ComboBox.ItemsPanel>
+                    <ComboBox.BorderBrush>
+                        <SolidColorBrush Color="{StaticResource PageHeaderBackgroundColor}"/>
+                    </ComboBox.BorderBrush>
+                </ComboBox>
+                <TextBlock FontFamily="Segoe UI Symbol" FontSize="25" Style="{StaticResource ItemsTextStyle}"
+                           Text="&#xE111;"/>
+                <ComboBox Name="Language2Box"  ItemsSource="{Binding Languages}" SelectedValue="{Binding CurrentLanguage2, Mode=TwoWay}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="210" Margin="5">
+                    <ComboBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical"/>
+                        </ItemsPanelTemplate>
+                    </ComboBox.ItemsPanel>
+                    <ComboBox.BorderBrush>
+                        <SolidColorBrush Color="{StaticResource PageHeaderBackgroundColor}"/>
+                    </ComboBox.BorderBrush>
+                </ComboBox>
+            </StackPanel>
+
+
+        </Grid>
+
+        <!--<Popup x:Name="ProductsListPopup" Grid.RowSpan="2">
+            <local:ProductsListControl/>
+        </Popup>-->
+    </Grid>
+</local:ViewBase>
+

@@ -1,0 +1,3 @@
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Models\bin\ARM\Release\Paragon.Container.Models.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Models\obj\ARM\Release\Models.csprojResolveAssemblyReference.cache
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Models\obj\ARM\Release\Paragon.Container.Models.dll

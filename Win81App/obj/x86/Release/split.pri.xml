@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="6012GuenrikhTourover.TuroverSpanishdictionaries" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>RU</Language>
+			<Scale>80, 100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="catalog.xml" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/catalog.xml">
+				<Candidate type="Path">
+					<Value>catalog.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Package.StoreAssociation.xml" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Package.StoreAssociation.xml">
+				<Candidate type="Path">
+					<Value>Package.StoreAssociation.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Paragon.Container.xr.xml" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Paragon.Container.xr.xml">
+				<Candidate type="Path">
+					<Value>Paragon.Container.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="ArticleHtmlTemplate.html" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/ArticleHtmlTemplate.html">
+					<Candidate type="Path">
+						<Value>Assets\ArticleHtmlTemplate.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="duden_morphomagics.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/duden_morphomagics.png">
+					<Candidate type="Path">
+						<Value>Assets\duden_morphomagics.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Flags">
+					<NamedResource name="bulg.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/bulg.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\bulg.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="chin.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/chin.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\chin.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="czec.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/czec.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\czec.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="dani.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/dani.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\dani.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="dutc.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/dutc.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\dutc.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="engl.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/engl.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\engl.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fren.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/fren.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\fren.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="germ.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/germ.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\germ.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="gree.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/gree.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\gree.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="hebr.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/hebr.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\hebr.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="hung.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/hung.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\hung.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ital.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/ital.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\ital.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="japa.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/japa.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\japa.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="lati.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/lati.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\lati.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="norw.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/norw.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\norw.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="poli.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/poli.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\poli.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="port.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/port.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\port.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="roma.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/roma.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\roma.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="russ.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/russ.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\russ.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="slvn.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/slvn.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\slvn.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="span.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/span.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\span.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="swed.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/swed.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\swed.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="turk.png" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Assets/Flags/turk.png">
+						<Candidate type="Path">
+							<Value>Assets\Flags\turk.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Bases">
+				<NamedResource name="4000.sdc" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Bases/4000.sdc">
+					<Candidate type="Path">
+						<Value>Bases\4000.sdc</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="4002.sdc" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Bases/4002.sdc">
+					<Candidate type="Path">
+						<Value>Bases\4002.sdc</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="538D.sdc" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Bases/538D.sdc">
+					<Candidate type="Path">
+						<Value>Bases\538D.sdc</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="5395.sdc" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Bases/5395.sdc">
+					<Candidate type="Path">
+						<Value>Bases\5395.sdc</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="ContainerAbout.html" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Resources/ContainerAbout.html">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="Path">
+						<Value>Resources\ru\ContainerAbout.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ProductAbout.html" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Resources/ProductAbout.html">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="Path">
+						<Value>Resources\ru\ProductAbout.html</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Views">
+				<NamedResource name="AdditionalArticleFlyout.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/AdditionalArticleFlyout.xbf">
+					<Candidate type="Path">
+						<Value>Views\AdditionalArticleFlyout.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AppStyles.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/AppStyles.xbf">
+					<Candidate type="Path">
+						<Value>Views\AppStyles.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ArticleView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/ArticleView.xbf">
+					<Candidate type="Path">
+						<Value>Views\ArticleView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BrandColors.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/BrandColors.xbf">
+					<Candidate type="Path">
+						<Value>Views\BrandColors.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DictionaryView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/DictionaryView.xbf">
+					<Candidate type="Path">
+						<Value>Views\DictionaryView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EnterCodeFlyout.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/EnterCodeFlyout.xbf">
+					<Candidate type="Path">
+						<Value>Views\EnterCodeFlyout.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FavoritesView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/FavoritesView.xbf">
+					<Candidate type="Path">
+						<Value>Views\FavoritesView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HistoryView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/HistoryView.xbf">
+					<Candidate type="Path">
+						<Value>Views\HistoryView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InformationView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/InformationView.xbf">
+					<Candidate type="Path">
+						<Value>Views\InformationView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NavigationMenuControl.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/NavigationMenuControl.xbf">
+					<Candidate type="Path">
+						<Value>Views\NavigationMenuControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ProductsCatalogView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/ProductsCatalogView.xbf">
+					<Candidate type="Path">
+						<Value>Views\ProductsCatalogView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ProductsListControl.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/ProductsListControl.xbf">
+					<Candidate type="Path">
+						<Value>Views\ProductsListControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SearchResultsView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/SearchResultsView.xbf">
+					<Candidate type="Path">
+						<Value>Views\SearchResultsView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreenView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/SplashScreenView.xbf">
+					<Candidate type="Path">
+						<Value>Views\SplashScreenView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SwitchDirection.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/SwitchDirection.xbf">
+					<Candidate type="Path">
+						<Value>Views\SwitchDirection.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="UIResourcesDictionary">
+					<NamedResource name="ButtonStyles.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/UIResourcesDictionary/ButtonStyles.xbf">
+						<Candidate type="Path">
+							<Value>Views\UIResourcesDictionary\ButtonStyles.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="StylesDictionary.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/UIResourcesDictionary/StylesDictionary.xbf">
+						<Candidate type="Path">
+							<Value>Views\UIResourcesDictionary\StylesDictionary.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TextStyles.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/Views/UIResourcesDictionary/TextStyles.xbf">
+						<Candidate type="Path">
+							<Value>Views\UIResourcesDictionary\TextStyles.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinRTXamlToolkit">
+				<ResourceMapSubtree name="Controls">
+					<NamedResource name="AnimatingContainer.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/AnimatingContainer.xbf">
+						<Candidate type="Path">
+							<Value>WinRTXamlToolkit\Controls\AnimatingContainer.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CascadingTextBlock.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/CascadingTextBlock.xbf">
+						<Candidate type="Path">
+							<Value>WinRTXamlToolkit\Controls\CascadingTextBlock.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CountdownControl.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/CountdownControl.xbf">
+						<Candidate type="Path">
+							<Value>WinRTXamlToolkit\Controls\CountdownControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="AlternativeFrame">
+						<NamedResource name="AlternativeFrame.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/AlternativeFrame/AlternativeFrame.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="CameraCaptureControl">
+						<NamedResource name="CameraCaptureControl.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/CameraCaptureControl/CameraCaptureControl.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="CascadingImageControl">
+						<NamedResource name="CascadingImageControl.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/CascadingImageControl/CascadingImageControl.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ColorPicker">
+						<NamedResource name="ColorPicker.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/ColorPicker/ColorPicker.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="CustomAppBar">
+						<NamedResource name="CustomAppBar.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/CustomAppBar/CustomAppBar.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="CustomGridSplitter">
+						<NamedResource name="CustomGridSplitter.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/CustomGridSplitter/CustomGridSplitter.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="DelayedLoadControl">
+						<NamedResource name="DelayedLoadControl.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/DelayedLoadControl/DelayedLoadControl.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="FxContentControl">
+						<NamedResource name="FxContentControl.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/FxContentControl/FxContentControl.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ImageButton">
+						<NamedResource name="ImageButton.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/ImageButton/ImageButton.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ImageToggleButton">
+						<NamedResource name="ImageToggleButton.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/ImageToggleButton/ImageToggleButton.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="InputDialog">
+						<NamedResource name="InputDialog.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/InputDialog/InputDialog.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="ListItemButton">
+						<NamedResource name="ListItemButton.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/ListItemButton/ListItemButton.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="NumericUpDown">
+						<NamedResource name="NumericUpDown.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/NumericUpDown/NumericUpDown.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="TreeView">
+						<NamedResource name="TreeView.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/TreeView/TreeView.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="TreeViewItem.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/TreeView/TreeViewItem.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="TreeViewMouse.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/TreeView/TreeViewMouse.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="TreeViewTouch.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/TreeView/TreeViewTouch.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="WatermarkPasswordBox">
+						<NamedResource name="WatermarkPasswordBox.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/WatermarkPasswordBox/WatermarkPasswordBox.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="WatermarkTextBox">
+						<NamedResource name="WatermarkTextBox.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/WatermarkTextBox/WatermarkTextBox.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="WebBrowser">
+						<NamedResource name="WebBrowser.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Controls/WebBrowser/WebBrowser.xbf">
+							<Candidate type="Path">
+								<Value>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Files/WinRTXamlToolkit/Themes/Generic.xbf">
+						<Candidate type="Path">
+							<Value>WinRTXamlToolkit\Themes\Generic.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="AboutTitle" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/AboutTitle">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>О программе</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Any" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/Any">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Любой</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AppName" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/AppName">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Испанские словари Г. Я. Туровера</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cancel" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/Cancel">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Отмена</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClearConfirm" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/ClearConfirm">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Удалить</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClearFavoritesRequest" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/ClearFavoritesRequest">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Удалить избранное?</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClearHistoryRequest" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/ClearHistoryRequest">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Удалить историю?</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Dictionary" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/Dictionary">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Словарь</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DidYouMean" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/DidYouMean">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Вы имели ввиду..?</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EnterCodeError" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/EnterCodeError">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Введенный код недействителен. Проверьте его и повторите попытку.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EnterCodeOk" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/EnterCodeOk">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Код успешно активирован!</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EnterCodeTitle" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/EnterCodeTitle">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Введите код</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EnterTempCodeOk" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/EnterTempCodeOk">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Код успешно активирован и дает доступ к словарю до: {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangAlbanian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangAlbanian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Албанский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangArabic" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangArabic">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Арабский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangBulgarian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangBulgarian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Болгарский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangCatalan" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangCatalan">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Каталонский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangCroatian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangCroatian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Хорватский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangCzech" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangCzech">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Чешский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangDanish" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangDanish">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Датский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangDutch" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangDutch">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Голландский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangEnglish" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangEnglish">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Английский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangEstonian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangEstonian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Эстонский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangFinnish" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangFinnish">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Финский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangFrench" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangFrench">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Французский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangGerman" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangGerman">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Немецкий</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangGreek" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangGreek">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Греческий</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangHebrew" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangHebrew">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Иврит</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangHungarian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangHungarian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Венгерский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangIcelandic" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangIcelandic">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Исландский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangItalian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangItalian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Итальянский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangLatvian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangLatvian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Латвийский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangLithuanian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangLithuanian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Литовский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangNorwegian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangNorwegian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Норвежский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangPolish" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangPolish">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Польский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangPortuguese" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangPortuguese">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Португальский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangRomanian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangRomanian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Румынский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangRussian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangRussian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Русский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangSlovak" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangSlovak">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Словацкий</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangSlovenian" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangSlovenian">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Словенский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangSpanish" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangSpanish">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Испанский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangSwedish" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangSwedish">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Шведский</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LangTurkish" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LangTurkish">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Турецкий</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoInternetConnectionMessage" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/NoInternetConnectionMessage">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Невозможно подключиться к Internet. Проверьте настройки соединения.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Ok" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/Ok">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>ОK</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ProductExpiredMessage" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/ProductExpiredMessage">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Регистрационный код истекает:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RestorePurchasesEmptyMessage" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/RestorePurchasesEmptyMessage">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Покупки не найдены</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RestorePurchasesSuccessMessage" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/RestorePurchasesSuccessMessage">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Покупки успешно восстановлены</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SearchResultsLabel" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/SearchResultsLabel">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Результаты по запросу </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SomeErrorMessage" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/SomeErrorMessage">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>Ошибка! Пожалуйста, повторите попытку позже.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SoundFormat" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/SoundFormat">
+				<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+					<Value>{0} звуковой модуль</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="AppNameLabel">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/AppNameLabel/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>Испанские словари Г. Я. Туровера</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="BuyButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/BuyButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Купить</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CatalogButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/CatalogButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Каталог</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ClearButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/ClearButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Удалить</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CloseHideBlockButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/CloseHideBlockButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Скрыть дополнительный текст</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DemoButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/DemoButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Демо</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DemoHint">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/DemoHint/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>Эта статья недоступна. Для просмотра,пожалуйста, купите полную версию словаря. Следующие статьи доступны для ознакомления.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DictionaryButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/DictionaryButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Словарь</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DownloadButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/DownloadButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Загрузить</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DownloadedLable">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/DownloadedLable/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>Загружено </Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="EnterCodeButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/EnterCodeButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Введите код</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="EnterCodeLabel">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/EnterCodeLabel/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>Введите код</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FavoriteButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/FavoriteButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Добавить в избранное</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FavoritesButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/FavoritesButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Избранное</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FavoritesEmptyLabel">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/FavoritesEmptyLabel/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>У Вас еще нет избранных статей</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FavoritesHeader">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/FavoritesHeader/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>Избранное</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HistoryButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/HistoryButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>История</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HistoryEmptyLabel">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/HistoryEmptyLabel/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>История поиска отсутствует. Она автоматически начнет пополняться просмотренными статьями.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="HistoryHeader">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/HistoryHeader/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>История</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="InformationButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/InformationButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Информация</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="InformationHeader">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/InformationHeader/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>Информация</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="LaunchButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/LaunchButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Открыть</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MorphoTableButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/MorphoTableButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Формы слова</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="NoSearchResultsLabel">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/NoSearchResultsLabel/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>Пожалуйста, введите другой запрос.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="OkButton">
+				<NamedResource name="Content" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/OkButton/Content">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>OK</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="OpenHideBlockButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/OpenHideBlockButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Показать дополнительный текст</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PinToStartButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/PinToStartButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>На стартовый экран</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PlaySoundButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/PlaySoundButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Воспроизвести</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PurchasedLabel">
+				<NamedResource name="Text" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/PurchasedLabel/Text">
+					<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+						<Value>Куплено</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="RestorePurchaseButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/RestorePurchaseButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Восстановить покупки</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="StopButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/StopButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Остановить</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="UnfavoriteButton">
+				<ResourceMapSubtree name="[using:Windows.UI.Xaml.Automation]AutomationProperties">
+					<NamedResource name="Name" uri="ms-resource://6012GuenrikhTourover.TuroverSpanishdictionaries/Resources/UnfavoriteButton/%5Busing%3AWindows.UI.Xaml.Automation%5DAutomationProperties/Name">
+						<Candidate qualifiers="Language-RU" isDefault="true" type="String">
+							<Value>Удалить из избранного</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

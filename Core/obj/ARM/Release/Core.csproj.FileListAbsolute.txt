@@ -1,0 +1,16 @@
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Paragon.Container.Core.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Cirrious.CrossCore.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Cirrious.MvvmCross.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Cirrious.MvvmCross.Localization.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Encryption.winmd
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\EngineWrapper.winmd
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Paragon.Common.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Paragon.Container.Models.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Paragon.Dictionary.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Encryption.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Encryption.pdb
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\EngineWrapper.dll
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\EngineWrapper.pdb
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\bin\ARM\Release\Paragon.Common.pdb
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\obj\ARM\Release\Core.csprojResolveAssemblyReference.cache
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\obj\ARM\Release\Paragon.Container.Core.dll

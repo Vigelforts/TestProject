@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Paragon.Container.Core</RootNamespace>
+    <AssemblyName>Paragon.Container.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <OutputPath>bin\ARM\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="ArticleRendering\ArticleFontStyle.cs" />
+    <Compile Include="ArticleRendering\ArticleHtmlRenderer.cs" />
+    <Compile Include="ArticleRendering\HideBlocksVisibility.cs" />
+    <Compile Include="ArticleRendering\HtmlBuilder.cs" />
+    <Compile Include="ArticleRendering\IArticleRenderingService.cs" />
+    <Compile Include="ArticleRendering\Images.cs" />
+    <Compile Include="ArticleRendering\Metadata.cs" />
+    <Compile Include="ArticleRendering\RenderParameters.cs" />
+    <Compile Include="DataSaving\DataAccessors\DataAccessorV1.cs" />
+    <Compile Include="DataSaving\DataAccessors\DataAccessorV2.cs" />
+    <Compile Include="DataSaving\DataAccessors\DataAccessorV3.cs" />
+    <Compile Include="DataSaving\DataConverter.cs" />
+    <Compile Include="DataSaving\DataModel.cs" />
+    <Compile Include="DataSaving\FavoritesService.cs" />
+    <Compile Include="DataSaving\HistoryService.cs" />
+    <Compile Include="DataSaving\IFavoritesService.cs" />
+    <Compile Include="DataSaving\IHistoryService.cs" />
+    <Compile Include="DataSaving\ILanguagesFilterDataSavingService.cs" />
+    <Compile Include="DataSaving\LanguagesFilterService.cs" />
+    <Compile Include="DictionaryService\AdditionalArticlesList.cs" />
+    <Compile Include="DictionaryService\DictionaryService.cs" />
+    <Compile Include="DictionaryService\IDictionaryService.cs" />
+    <Compile Include="DictionaryService\DictionaryList.cs" />
+    <Compile Include="DictionaryService\DictionaryItem.cs" />
+    <Compile Include="Hacks.cs" />
+    <Compile Include="IAppStylesService.cs" />
+    <Compile Include="IParametersManager.cs" />
+    <Compile Include="IUserInteraction.cs" />
+    <Compile Include="ParametersManager.cs" />
+    <Compile Include="Parameters.cs" />
+    <Compile Include="ProductsCatalog\BasesManager.cs" />
+    <Compile Include="ProductsCatalog\LocaleInformation.cs" />
+    <Compile Include="ProductsCatalog\ProductLevel.cs" />
+    <Compile Include="ProductsCatalog\ProductsCatalogReader.cs" />
+    <Compile Include="ProductsCatalog\IProductsCatalog.cs" />
+    <Compile Include="ProductsCatalog\ProductsCatalog.cs" />
+    <Compile Include="ProductsCatalog\SerialCodeHandler.cs" />
+    <Compile Include="ProductsDatabase\IProductsDatabase.cs" />
+    <Compile Include="ProductsDatabase\ProductsDatabaseEncrypter.cs" />
+    <Compile Include="ProductsDatabase\ProductsDatabaseModel.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProductsCatalog\DictionaryInfo.cs" />
+    <Compile Include="IItemsController.cs" />
+    <Compile Include="RenderingItem.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="ViewModels\AdditionalArticleViewModel.cs" />
+    <Compile Include="ViewModels\ArticleViewModel.cs" />
+    <Compile Include="ViewModels\DictionaryViewModel.cs" />
+    <Compile Include="ProductsCatalog\PBase.cs" />
+    <Compile Include="ProductsCatalog\Product.cs" />
+    <Compile Include="ProductsDatabase\ProductsDatabase.cs" />
+    <Compile Include="ViewModels\EnterCodeViewModel.cs" />
+    <Compile Include="ViewModels\FavoritesViewModel.cs" />
+    <Compile Include="ViewModels\HistoryViewModel.cs" />
+    <Compile Include="ViewModels\InformationViewModel.cs" />
+    <Compile Include="ViewModels\ProductsCatalogViewModel.cs" />
+    <Compile Include="ViewModels\SearchResultsViewModel.cs" />
+    <Compile Include="ViewModels\SplashScreenViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase.cs" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(Platform)' == 'ARM'">
+      <ItemGroup>
+        <Reference Include="Encryption">
+          <HintPath>..\libs\EncryptionLib\arm\Encryption.winmd</HintPath>
+        </Reference>
+        <Reference Include="EngineWrapper">
+          <HintPath>..\libs\Dictionary\EngineWrapper\arm_release\EngineWrapper.winmd</HintPath>
+        </Reference>
+        <Reference Include="Paragon.Dictionary">
+          <HintPath>..\libs\Dictionary\DictionaryLib\arm_release\Paragon.Dictionary.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="'$(Platform)' == 'x64'">
+      <ItemGroup>
+        <Reference Include="Encryption">
+          <HintPath>..\libs\EncryptionLib\x64\Encryption.winmd</HintPath>
+        </Reference>
+        <Reference Include="EngineWrapper">
+          <HintPath>..\libs\Dictionary\EngineWrapper\x64_release\EngineWrapper.winmd</HintPath>
+        </Reference>
+        <Reference Include="Paragon.Dictionary">
+          <HintPath>..\libs\Dictionary\DictionaryLib\x64_release\Paragon.Dictionary.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Encryption">
+          <HintPath>..\libs\EncryptionLib\x86\Encryption.winmd</HintPath>
+        </Reference>
+        <Reference Include="EngineWrapper">
+          <HintPath>..\libs\Dictionary\EngineWrapper\win32_release\EngineWrapper.winmd</HintPath>
+        </Reference>
+        <Reference Include="Paragon.Dictionary">
+          <HintPath>..\libs\Dictionary\DictionaryLib\win32_release\Paragon.Dictionary.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Reference Include="Cirrious.CrossCore">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.CrossCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross">
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\portable-win+net45+sl50+wp8+MonoAndroid+MonoTouch\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Paragon.Common">
+      <HintPath>..\libs\CommonLib\CommonLib_any\Paragon.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{3ba0c169-8bb1-4bd4-813c-5e6316d24f09}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

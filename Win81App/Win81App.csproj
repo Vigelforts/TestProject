@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{257EE35A-DB6E-40D7-A142-8DEAD65451CE}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Paragon.Container</RootNamespace>
+    <AssemblyName>Paragon.Container</AssemblyName>
+    <DefaultLanguage>ru</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Win81App_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>C89EC35919E57831D61A56856B8E0B6CDF60DF93</PackageCertificateThumbprint>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <Choose>
+    <When Condition="'$(Platform)' == 'ARM'">
+      <ItemGroup>
+        <Reference Include="Paragon.Dictionary">
+          <HintPath>..\libs\Dictionary\DictionaryLib\arm_release\Paragon.Dictionary.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <When Condition="'$(Platform)' == 'x64'">
+      <ItemGroup>
+        <Reference Include="Paragon.Dictionary">
+          <HintPath>..\libs\Dictionary\DictionaryLib\x64_release\Paragon.Dictionary.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Paragon.Dictionary">
+          <HintPath>..\libs\Dictionary\DictionaryLib\win32_release\Paragon.Dictionary.dll</HintPath>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AppStylesService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="ItemsController.cs" />
+    <Compile Include="SoundPlayer.cs" />
+    <Compile Include="UserInteraction.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Views\AdditionalArticleFlyout.xaml.cs">
+      <DependentUpon>AdditionalArticleFlyout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ArticleView.xaml.cs">
+      <DependentUpon>ArticleView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BaseIconConverter.cs" />
+    <Compile Include="Views\DictionaryView.xaml.cs">
+      <DependentUpon>DictionaryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EnterCodeFlyout.xaml.cs">
+      <DependentUpon>EnterCodeFlyout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FavoritesView.xaml.cs">
+      <DependentUpon>FavoritesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HistoryView.xaml.cs">
+      <DependentUpon>HistoryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InformationView.xaml.cs">
+      <DependentUpon>InformationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListsCountToWightConverter.cs" />
+    <Compile Include="Views\NavigationMenuControl.xaml.cs">
+      <DependentUpon>NavigationMenuControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductsCatalogView.xaml.cs">
+      <DependentUpon>ProductsCatalogView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductDescriptionHtmlConverter.cs" />
+    <Compile Include="Views\SearchResultsView.xaml.cs">
+      <DependentUpon>SearchResultsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductsListControl.xaml.cs">
+      <DependentUpon>ProductsListControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SplashScreenView.xaml.cs">
+      <DependentUpon>SplashScreenView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SwitchDirection.xaml.cs">
+      <DependentUpon>SwitchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UIResourcesDictionary\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Views\UIResourcesDictionary\BooleanToVisibilityInvertConverter.cs" />
+    <Compile Include="Views\UIResourcesDictionary\BytesToImageSourceConverter.cs" />
+    <Compile Include="Views\UIResourcesDictionary\EnterCommand.cs" />
+    <Compile Include="Views\UIResourcesDictionary\ItemClickCommand.cs" />
+    <Compile Include="Views\UIResourcesDictionary\LocalizedLanguagesConverter.cs" />
+    <Compile Include="Views\UIResourcesDictionary\QuerySubmittedCommand.cs" />
+    <Compile Include="Views\UIResourcesDictionary\WebViewExtensions.cs" />
+    <Compile Include="Views\ViewBase.cs" />
+    <Compile Include="Views\WordItemTemplateSelector.cs" />
+    <Content Include="Bases\4000.sdc" />
+    <Content Include="Bases\4001.sdc" />
+    <Content Include="Bases\4002.sdc" />
+    <Content Include="Bases\4003.sdc" />
+    <Content Include="Bases\4004.sdc" />
+    <Content Include="Bases\4008.sdc" />
+    <Content Include="Bases\516F.sdc" />
+    <Content Include="Bases\5170.sdc" />
+    <Content Include="Bases\51DC.sdc" />
+    <Content Include="Bases\51DF.sdc" />
+    <Content Include="Bases\51E0.sdc" />
+    <Content Include="Bases\51E3.sdc" />
+    <Content Include="Bases\51E4.sdc" />
+    <Content Include="Bases\51E5.sdc" />
+    <Content Include="Bases\51EB.sdc" />
+    <Content Include="Bases\51F6.sdc" />
+    <Content Include="Bases\51F8.sdc" />
+    <Content Include="Bases\51FB.sdc" />
+    <Content Include="Bases\5201.sdc" />
+    <Content Include="Bases\5202.sdc" />
+    <Content Include="Bases\5208.sdc" />
+    <Content Include="Bases\520A.sdc" />
+    <Content Include="Bases\5212.sdc" />
+    <Content Include="Bases\5216.sdc" />
+    <Content Include="Bases\521A.sdc" />
+    <Content Include="Bases\521F.sdc" />
+    <Content Include="Bases\522B.sdc" />
+    <Content Include="Bases\522F.sdc" />
+    <Content Include="Bases\5231.sdc" />
+    <Content Include="Bases\5235.sdc" />
+    <Content Include="Bases\5248.sdc" />
+    <Content Include="Bases\52CE.sdc" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="Assets\ArticleHtmlTemplate.html" />
+    <Content Include="Assets\duden_morphomagics.png" />
+    <Content Include="Assets\Flags\bulg.png" />
+    <Content Include="Assets\Flags\gree.png" />
+    <Content Include="Assets\Flags\hebr.png" />
+    <Content Include="Assets\Flags\norw.png" />
+    <Content Include="Assets\Flags\roma.png" />
+    <Content Include="Assets\Logo.scale-140.png" />
+    <Content Include="Assets\Logo.scale-180.png" />
+    <Content Include="Assets\Logo.scale-80.png" />
+    <Content Include="Assets\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SmallLogo.scale-180.png" />
+    <Content Include="Assets\SmallLogo.scale-80.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
+    <Content Include="Assets\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo.scale-180.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Assets\WideLogo.scale-140.png" />
+    <Content Include="Assets\WideLogo.scale-180.png" />
+    <Content Include="Assets\WideLogo.scale-80.png" />
+    <Content Include="catalog.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Package.StoreAssociation.xml" />
+    <Content Include="Resources\de\ContainerAbout.html" />
+    <Content Include="Resources\de\ProductAbout.html" />
+    <Content Include="Resources\en\ContainerAbout.html" />
+    <Content Include="Resources\en\ProductAbout.html" />
+    <Content Include="Resources\es\ContainerAbout.html" />
+    <Content Include="Resources\es\ProductAbout.html" />
+    <Content Include="Resources\fr\ContainerAbout.html" />
+    <Content Include="Resources\fr\ProductAbout.html" />
+    <Content Include="Resources\it\ContainerAbout.html" />
+    <Content Include="Resources\it\ProductAbout.html" />
+    <Content Include="Resources\ru\ContainerAbout.html" />
+    <Content Include="Resources\ru\ProductAbout.html" />
+    <PRIResource Include="Resources\en\Resources.resw" />
+    <Content Include="Assets\Flags\chin.png" />
+    <Content Include="Assets\Flags\czec.png" />
+    <Content Include="Assets\Flags\dani.png" />
+    <Content Include="Assets\Flags\dutc.png" />
+    <Content Include="Assets\Flags\engl.png" />
+    <Content Include="Assets\Flags\fren.png" />
+    <Content Include="Assets\Flags\germ.png" />
+    <Content Include="Assets\Flags\hung.png" />
+    <Content Include="Assets\Flags\ital.png" />
+    <Content Include="Assets\Flags\japa.png" />
+    <Content Include="Assets\Flags\lati.png" />
+    <Content Include="Assets\Flags\poli.png" />
+    <Content Include="Assets\Flags\port.png" />
+    <Content Include="Assets\Flags\russ.png" />
+    <Content Include="Assets\Flags\slvn.png" />
+    <Content Include="Assets\Flags\span.png" />
+    <Content Include="Assets\Flags\swed.png" />
+    <Content Include="Assets\Flags\turk.png" />
+    <None Include="packages.config" />
+    <PRIResource Include="Resources\de\Resources.resw" />
+    <PRIResource Include="Resources\it\Resources.resw" />
+    <PRIResource Include="Resources\fr\Resources.resw" />
+    <PRIResource Include="Resources\es\Resources.resw" />
+    <PRIResource Include="Resources\ru\Resources.resw" />
+    <None Include="Win81App_StoreKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Views\AdditionalArticleFlyout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AppStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\ArticleView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\BrandColors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\DictionaryView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\EnterCodeFlyout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FavoritesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HistoryView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\InformationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NavigationMenuControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ProductsCatalogView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SearchResultsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ProductsListControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SplashScreenView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SwitchDirection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UIResourcesDictionary\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\UIResourcesDictionary\StylesDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\UIResourcesDictionary\TextStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Cirrious.CrossCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.CrossCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore.WindowsStore">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.CrossCore.WindowsStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e16445fd9b451819, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\netcore45\Cirrious.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.WindowsStore">
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\netcore45\Cirrious.MvvmCross.WindowsStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Paragon.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\CommonLib\CommonLib_any\Paragon.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Paragon.Common.WinRT, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libs\CommonLib\CommonLib_any\Paragon.Common.WinRT.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRTXamlToolkit">
+      <HintPath>..\packages\WinRTXamlToolkit.1.5.4.3\lib\netcore451\WinRTXamlToolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{5ad9c6cd-01cf-4544-9f33-d5f5cfffdee5}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=12.0">
+      <Name>Microsoft Visual C++ 2013 Runtime Package for Windows</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <OutputPath>bin\ARM\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

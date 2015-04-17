@@ -1,0 +1,14 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\packages\mvvmcross.hottuna.crosscore.3.1.1\lib\netcore45\cirrious.crosscore.dll" HashGuid="ccf28a4c-2c17-ea97-8807-aa6e295d120f" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\packages\mvvmcross.hottuna.crosscore.3.1.1\lib\netcore45\cirrious.crosscore.windowsstore.dll" HashGuid="f97ceb8d-2817-bc90-624e-9280927ae311" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\packages\mvvmcross.hottuna.mvvmcrosslibraries.3.1.1\lib\netcore45\cirrious.mvvmcross.dll" HashGuid="24618852-aa19-02c1-8522-2d70f52bb060" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\packages\mvvmcross.hottuna.crosscore.3.1.1\lib\netcore45\cirrious.mvvmcross.localization.dll" HashGuid="cc169ebc-6f40-271e-a9fe-e2fe4b3425db" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\packages\mvvmcross.hottuna.mvvmcrosslibraries.3.1.1\lib\netcore45\cirrious.mvvmcross.windowsstore.dll" HashGuid="6d01fdd3-1f66-17c5-1139-f53c76052aa7" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\libs\commonlib\commonlib_any\paragon.common.dll" HashGuid="03001877-c260-4fbf-8a3e-4bb65f1bcb50" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\libs\commonlib\commonlib_any\paragon.common.winrt.dll" HashGuid="5e9f2ff7-6289-e8b8-78e8-2f71220a4889" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\libs\dictionary\dictionarylib\x64_release\paragon.dictionary.dll" HashGuid="0ad21e71-1ff7-c2da-9ece-c334228fefad" />
+    <ReferenceAssembly PathName="c:\users\tikhonov2\desktop\containercurrent\packages\winrtxamltoolkit.1.5.4.3\lib\netcore451\winrtxamltoolkit.dll" HashGuid="5e9cdb98-d894-297f-abde-39796d45dfee" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

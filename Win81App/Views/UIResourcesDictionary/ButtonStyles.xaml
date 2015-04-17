@@ -1,0 +1,203 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="TextStyles.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="ButtonBackgroundBrush" Opacity="0"/>
+    <SolidColorBrush x:Key="ButtonForegroundBrush" Color="#FF000000"/>
+    <SolidColorBrush x:Key="ButtonBackgroundBrush_PointerOver" Color="#FF000000" Opacity="0.2"/>
+    <SolidColorBrush x:Key="ButtonBackgroundBrush_Pressed" Color="#FFFFFFFF" Opacity="0.4"/>
+
+    <Style x:Key="ButtonWithIconStyle" TargetType="ButtonBase">
+        <Setter Property="Background" Value="{StaticResource ButtonBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource ButtonForegroundBrush}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid x:Name="RootGrid">
+                        <Border x:Name="Border" BorderThickness="2" BorderBrush="{TemplateBinding Foreground}" Background="{TemplateBinding Background}">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <Path x:Name="Icon" Stretch="Uniform" Width="24" Height="24" RenderTransformOrigin="0.5,0.5"
+                                      Fill="{TemplateBinding Foreground}" Data="{TemplateBinding Content}"/>
+                                <TextBlock x:Name="Title" Style="{StaticResource BaseTextStyle}" FontSize="{TemplateBinding FontSize}" Margin="10,0,0,0"
+                                           Foreground="{TemplateBinding Foreground}" Text="{TemplateBinding AutomationProperties.Name}"/>
+                            </StackPanel>
+                        </Border>
+
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="Background">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonBackgroundBrush_PointerOver}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="BorderBrush">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonForegroundBrush_PointerOver}"/>
+                                        </ObjectAnimationUsingKeyFrames>-->
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="Background">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonBackgroundBrush_Pressed}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="Border" Storyboard.TargetProperty="BorderBrush">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonForegroundBrush_Pressed}"/>
+                                        </ObjectAnimationUsingKeyFrames>-->
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="RoundButtonWithIconStyle" TargetType="ButtonBase">
+        <Setter Property="Background" Value="{StaticResource ButtonBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource ButtonForegroundBrush}"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="FontFamily" Value="Segoe UI Symbol"/>
+        <Setter Property="FontWeight" Value="Normal"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid x:Name="RootGrid" Width="100" Background="{TemplateBinding Background}">
+                        <StackPanel VerticalAlignment="Top" Margin="0,12,0,11">
+                            <Grid Width="40" Height="40" Margin="0,0,0,5" HorizontalAlignment="Center">
+                                <TextBlock x:Name="BackgroundGlyph" Text="&#xE0A8;" FontFamily="Segoe UI Symbol" FontSize="53.333" Margin="-4,-19,0,0"
+                                           Foreground="{TemplateBinding Background}"/>
+                                <TextBlock x:Name="OutlineGlyph" Text="&#xE0A7;" FontFamily="Segoe UI Symbol" FontSize="53.333" Margin="-4,-19,0,0"
+                                           Foreground="{TemplateBinding Foreground}"/>
+                                <ContentPresenter x:Name="Content" HorizontalAlignment="Center" Margin="-1,-1,0,0" VerticalAlignment="Center"
+                                                  Foreground="{TemplateBinding Foreground}"/>
+                            </Grid>
+                            <TextBlock Style="{StaticResource BaseTextStyle}" Text="{TemplateBinding AutomationProperties.Name}" Foreground="{TemplateBinding Foreground}" Margin="0,-5,2,0"
+                                       FontSize="12" TextAlignment="Center" Width="95" TextTrimming="WordEllipsis" LineHeight="15"/>
+                        </StackPanel>
+
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGlyph" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonBackgroundBrush_PointerOver}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="OutlineGlyph" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonForegroundBrush_PointerOver}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Content" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonForegroundBrush_PointerOver}"/>
+                                        </ObjectAnimationUsingKeyFrames>-->
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGlyph" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonBackgroundBrush_Pressed}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="OutlineGlyph" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonForegroundBrush_Pressed}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Content" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ButtonForegroundBrush_Pressed}"/>
+                                        </ObjectAnimationUsingKeyFrames>-->
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="TextButtonStyle" TargetType="ButtonBase">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="BackRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE112;"/>
+    </Style>
+    
+    <Style x:Key="PlayRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE102;"/>
+    </Style>
+
+    <Style x:Key="StopRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE15B;"/>
+    </Style>
+
+    <Style x:Key="FavoriteRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE113;"/>
+    </Style>
+
+    <Style x:Key="UnfavoriteRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE195;"/>
+    </Style>
+
+    <Style x:Key="ClearRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE106;"/>
+    </Style>
+    
+    <Style x:Key="DownloadRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE118;"/>
+    </Style>
+
+    <Style x:Key="RemoveRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE0B8;"/>
+    </Style>
+
+    <Style x:Key="SwitchRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE174;"/>
+    </Style>
+
+    <Style x:Key="FullViewRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE169;"/>
+    </Style>
+
+    <Style x:Key="ShortViewRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE16A;"/>
+    </Style>
+
+    <Style x:Key="TableRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE14E;"/>
+    </Style>
+
+    <Style x:Key="VolumeRoundButtonWithIconStyle" TargetType="ButtonBase" BasedOn="{StaticResource RoundButtonWithIconStyle}">
+        <Setter Property="Content" Value="&#xE247;"/>
+    </Style>
+
+</ResourceDictionary>

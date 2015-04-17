@@ -1,0 +1,3 @@
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Core\Core.csproj;x64
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Models\Models.csproj;x64
+C:\Users\tikhonov2\Desktop\ContainerCurrent\BuildSystem\program\build_result\project\Win81App\Win81App.csproj;x64

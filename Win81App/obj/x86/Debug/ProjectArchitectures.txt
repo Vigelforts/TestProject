@@ -1,0 +1,3 @@
+C:\Users\tikhonov2\Desktop\ContainerCurrent\Core\Core.csproj;x86
+C:\Users\tikhonov2\Desktop\ContainerCurrent\Models\Models.csproj;x86
+C:\Users\tikhonov2\Desktop\ContainerCurrent\Win81App\Win81App.csproj;x86

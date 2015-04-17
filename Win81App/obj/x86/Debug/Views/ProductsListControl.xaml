@@ -1,0 +1,19 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="Paragon.Container.Views.ProductsListControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                               >
+
+    <Grid>
+        <Border Background="Black" Opacity="0.4"/>
+        <Grid x:Name="Content" HorizontalAlignment="Center" VerticalAlignment="Center"
+              Background="{StaticResource PopupBackgroundBrush}">
+            <Grid HorizontalAlignment="Center" Width="600" Height="auto" Margin="20">
+                <TextBlock Style="{StaticResource BaseTextStyle}" Foreground="{StaticResource PopupTextBrush}"
+                           FontSize="16" FontWeight="Light"
+                           Text="Some message"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>
+

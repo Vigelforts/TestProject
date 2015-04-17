@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Cualquier</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Diccionarios de Slovoed</value>
+  </data>
+  <data name="AppNameLabel.Text" xml:space="preserve">
+    <value>Diccionarios de Slovoed</value>
+  </data>
+  <data name="BuyButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Comprar</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CatalogButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Catálogo</value>
+  </data>
+  <data name="ClearButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="ClearConfirm" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="ClearFavoritesRequest" xml:space="preserve">
+    <value>¿Borrar los favoritos?</value>
+  </data>
+  <data name="ClearHistoryRequest" xml:space="preserve">
+    <value>¿Borrar el historial?</value>
+  </data>
+  <data name="CloseHideBlockButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Ocultar contenido adicional</value>
+  </data>
+  <data name="DemoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="DemoHint.Text" xml:space="preserve">
+    <value>Este artículo no está disponible para navegar. Para acceder a él, compre la versión completa del diccionario. También puede navegar por los artículos de muestra enumerados a continuación.</value>
+  </data>
+  <data name="Dictionary" xml:space="preserve">
+    <value>Diccionario</value>
+  </data>
+  <data name="DictionaryButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Diccionario</value>
+  </data>
+  <data name="DidYouMean" xml:space="preserve">
+    <value>¿Quiso decir…</value>
+  </data>
+  <data name="DownloadButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Descargar</value>
+  </data>
+  <data name="DownloadedLable.Text" xml:space="preserve">
+    <value>Descargado</value>
+  </data>
+  <data name="EnterCodeButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Introduzca el código</value>
+  </data>
+  <data name="EnterCodeError" xml:space="preserve">
+    <value>Este código de registro no es válido. Verifique si introdujo el código correcto y vuelva a intentarlo.</value>
+  </data>
+  <data name="EnterCodeLabel.Text" xml:space="preserve">
+    <value>Introduzca el código de registro</value>
+  </data>
+  <data name="EnterCodeOk" xml:space="preserve">
+    <value>¡Felicitaciones! El código de registro se activó correctamente.</value>
+  </data>
+  <data name="EnterCodeTitle" xml:space="preserve">
+    <value>Introduzca el código</value>
+  </data>
+  <data name="EnterTempCodeOk" xml:space="preserve">
+    <value>¡Felicitaciones! El código de registro se activó correctamente. Puede utilizar la aplicación hasta el {0}.</value>
+  </data>
+  <data name="FavoriteButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Agregar a favoritos</value>
+  </data>
+  <data name="FavoritesButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="FavoritesEmptyLabel.Text" xml:space="preserve">
+    <value>No tiene ningún artículo favorito en este momento.</value>
+  </data>
+  <data name="FavoritesHeader.Text" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="HistoryButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Historial</value>
+  </data>
+  <data name="HistoryEmptyLabel.Text" xml:space="preserve">
+    <value>Su historial está vacío. Se poblará automáticamente con las entradas que visitó.</value>
+  </data>
+  <data name="HistoryHeader.Text" xml:space="preserve">
+    <value>Historial</value>
+  </data>
+  <data name="InformationButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="InformationHeader.Text" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="LangBulgarian" xml:space="preserve">
+    <value>Búlgaro</value>
+  </data>
+  <data name="LangCzech" xml:space="preserve">
+    <value>Сheco</value>
+  </data>
+  <data name="LangDutch" xml:space="preserve">
+    <value>Danés</value>
+  </data>
+  <data name="LangEnglish" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="LangFrench" xml:space="preserve">
+    <value>Francés</value>
+  </data>
+  <data name="LangGerman" xml:space="preserve">
+    <value>Alemán</value>
+  </data>
+  <data name="LangHebrew" xml:space="preserve">
+    <value>Judío</value>
+  </data>
+  <data name="LangHungrian" xml:space="preserve">
+    <value>Húngaro</value>
+  </data>
+  <data name="LangItalian" xml:space="preserve">
+    <value>Italiano</value>
+  </data>
+  <data name="LangNorwegian" xml:space="preserve">
+    <value>Noruego</value>
+  </data>
+  <data name="LangPolish" xml:space="preserve">
+    <value>Polaco</value>
+  </data>
+  <data name="LangPortuguese" xml:space="preserve">
+    <value>Portugués</value>
+  </data>
+  <data name="LangRomanian" xml:space="preserve">
+    <value>Rumano</value>
+  </data>
+  <data name="LangRussian" xml:space="preserve">
+    <value>Ruso</value>
+  </data>
+  <data name="LangSpanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="LangSwedish" xml:space="preserve">
+    <value>Sueco</value>
+  </data>
+  <data name="LangTurkish" xml:space="preserve">
+    <value>Turco</value>
+  </data>
+  <data name="LaunchButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="MorphoTableButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Formas de palabras</value>
+  </data>
+  <data name="NoInternetConnectionMessage" xml:space="preserve">
+    <value>No se pudo conectar a Internet. Verifique las configuraciones de Internet.</value>
+  </data>
+  <data name="NoSearchResultsLabel.Text" xml:space="preserve">
+    <value>Especifique un pedido de búsqueda diferente.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OkButton.Content" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OpenHideBlockButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mostrar contenido adicional</value>
+  </data>
+  <data name="PinToStartButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pulse para comenzar</value>
+  </data>
+  <data name="PlaySoundButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Jugar</value>
+  </data>
+  <data name="ProductExpiredMessage" xml:space="preserve">
+    <value>El código de registro venció:</value>
+  </data>
+  <data name="PurchasedLabel.Text" xml:space="preserve">
+    <value>Comprado</value>
+  </data>
+  <data name="RestorePurchaseButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Restablecer la compra</value>
+  </data>
+  <data name="RestorePurchasesEmptyMessage" xml:space="preserve">
+    <value>No se encontraron compras</value>
+  </data>
+  <data name="RestorePurchasesSuccessMessage" xml:space="preserve">
+    <value>Las compras se han restablecido</value>
+  </data>
+  <data name="SearchResultsLabel" xml:space="preserve">
+    <value>Resultados de</value>
+  </data>
+  <data name="SomeErrorMessage" xml:space="preserve">
+    <value>Ocurrió un error. Inténtelo más tarde nuevamente.</value>
+  </data>
+  <data name="SoundFormat" xml:space="preserve">
+    <value>sonido {0}</value>
+  </data>
+  <data name="StopButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Detener</value>
+  </data>
+  <data name="UnfavoriteButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Borrar de favoritos</value>
+  </data>
+</root>

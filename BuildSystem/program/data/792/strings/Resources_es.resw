@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>  
+  <data name="AppName">
+    <value>Diccionarios de español</value>
+  </data>
+  <data name="AppNameLabel.Text">
+    <value>Diccionarios de español</value>
+  </data>
+</root>

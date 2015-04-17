@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win81App", "Win81App\Win81App.csproj", "{257EE35A-DB6E-40D7-A142-8DEAD65451CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|ARM.Build.0 = Debug|ARM
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|x64.ActiveCfg = Debug|x64
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|x64.Build.0 = Debug|x64
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|x64.Deploy.0 = Debug|x64
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|x86.ActiveCfg = Debug|x86
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|x86.Build.0 = Debug|x86
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Debug|x86.Deploy.0 = Debug|x86
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|ARM.ActiveCfg = Release|ARM
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|ARM.Build.0 = Release|ARM
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|ARM.Deploy.0 = Release|ARM
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|x64.ActiveCfg = Release|x64
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|x64.Build.0 = Release|x64
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|x64.Deploy.0 = Release|x64
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|x86.ActiveCfg = Release|x86
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|x86.Build.0 = Release|x86
+		{257EE35A-DB6E-40D7-A142-8DEAD65451CE}.Release|x86.Deploy.0 = Release|x86
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Debug|ARM.Build.0 = Debug|ARM
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Debug|x64.ActiveCfg = Debug|x64
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Debug|x64.Build.0 = Debug|x64
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Debug|x86.ActiveCfg = Debug|x86
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Debug|x86.Build.0 = Debug|x86
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Release|ARM.ActiveCfg = Release|ARM
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Release|ARM.Build.0 = Release|ARM
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Release|x64.ActiveCfg = Release|x64
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Release|x64.Build.0 = Release|x64
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Release|x86.ActiveCfg = Release|x86
+		{5AD9C6CD-01CF-4544-9F33-D5F5CFFFDEE5}.Release|x86.Build.0 = Release|x86
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Debug|ARM.Build.0 = Debug|ARM
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Debug|x64.ActiveCfg = Debug|x64
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Debug|x64.Build.0 = Debug|x64
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Debug|x86.ActiveCfg = Debug|x86
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Debug|x86.Build.0 = Debug|x86
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Release|ARM.ActiveCfg = Release|ARM
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Release|ARM.Build.0 = Release|ARM
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Release|x64.ActiveCfg = Release|x64
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Release|x64.Build.0 = Release|x64
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Release|x86.ActiveCfg = Release|x86
+		{3BA0C169-8BB1-4BD4-813C-5E6316D24F09}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
