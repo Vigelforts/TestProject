@@ -27,7 +27,7 @@ namespace Paragon.Container
             Mvx.RegisterSingleton<Common.IResourcesProvider>(new Common.ResourcesProvider());
             Mvx.RegisterSingleton<Common.IUIDispatcher>(new Common.UIDispatcher());
             Mvx.RegisterSingleton<Common.IFileDownloader>(fileDownloader);
-            Mvx.RegisterSingleton<Common.IInAppService>(new Common.TestInAppService());
+            Mvx.RegisterSingleton<Common.IInAppService>(new Common.InAppService());
             Mvx.RegisterSingleton<Common.ISettingsManager>(new Common.SettingsManager());
             Mvx.RegisterSingleton<Common.IShortcutManager>(new Common.ShortcutManager());
             Mvx.RegisterSingleton<Common.IDeviceInformation>(new Common.DeviceInformation());
